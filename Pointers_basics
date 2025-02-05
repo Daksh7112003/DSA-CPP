@@ -1,0 +1,64 @@
+int main() {
+    // Write C++ code here
+//    std::cout << "Try programiz.pro";
+    int num = 5 ;
+    int *p = &num;
+    cout<<*p<<endl;
+    cout<<p<<endl;
+    
+    cout<<*p<<endl;
+    int q = 6 ;
+    int *a = &q;
+    
+    cout<< *a <<endl;
+    
+  
+    cout<<(*a)++<<endl;
+
+    
+    
+    
+    int b = 100 ;
+    cout <<b++<<endl;
+    cout <<b++<<endl;
+    
+    cout <<b <<endl;
+    cout<< b<<endl;
+    
+    
+    int d  = 787853;
+    
+    int *c =&d;
+
+    cout<<c<<endl;
+    cout << c++<<endl;
+    cout <<c++<<endl;
+    
+    cout<< c++<<endl;
+    cout<<c++<<endl;
+    
+    
+    
+    
+    
+    
+
+    return 0;
+}
+
+
+// Output ...
+5
+0x7ffd424b0b7c
+5
+6
+6
+100
+101
+102
+102
+0x7ffd424b0b74
+0x7ffd424b0b74
+0x7ffd424b0b78
+0x7ffd424b0b7c
+0x7ffd424b0b80
